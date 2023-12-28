@@ -9,7 +9,7 @@ import User from './User';
 import PostComment from './PostComment';
 import MovieLists from './MovieListCarousel';
 import TimeOut from './TimeOut';
-import MovieListPaging from './MovieListPaging';
+import MovieListCarousel from './MovieListCarousel';
 import RowColAlerts from './RowColAlerts';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,7 +23,7 @@ root.render(
     {/*<MovieLists />*/}
     {/*<TimeOut />*/}
     {/*<RowColAlerts />*/}
-    <MovieListPaging />
+    <MovieListCarousel />
   </React.StrictMode>
 );
 
